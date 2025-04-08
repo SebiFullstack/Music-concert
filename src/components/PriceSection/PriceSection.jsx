@@ -5,7 +5,7 @@ import styles from './PriceSection.module.css';
 function PriceSection() {
   return (
     <section className={styles.priceSection}>
-      <h2>Pricing</h2>
+      <h2>Pricing </h2>
       <PriceCard />
     </section>
   );
