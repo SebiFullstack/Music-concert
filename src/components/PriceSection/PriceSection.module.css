@@ -1,0 +1,28 @@
+.wrapper {
+    padding: 64px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: black;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px; 
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+    }
+  }
+  
+  

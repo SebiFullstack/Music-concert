@@ -15,18 +15,18 @@ import TestimonialsSection from './TestimonialsSection/TestimonialsSection';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <AboutSection />
-      <CategorySection />
-      <GallerySection />
-      <PriceSection />
-      <ScheduleSection />
-      <SingersSection />
-      <SponsorsSection />
-      <TestimonialsSection />
-      <ContactSection />
-      <Footer />
-    </div>
+    <Header />
+    <CategorySection />
+    <AboutSection />
+    <SingersSection />
+    <ScheduleSection />
+    <PriceSection />
+    <SponsorsSection />
+    <TestimonialsSection />
+    <GallerySection />
+    <ContactSection />
+    <Footer />
+  </div>
   );
 }
 
