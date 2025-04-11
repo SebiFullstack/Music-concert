@@ -1,0 +1,143 @@
+.contactForm {
+    flex: 1;
+    padding: 40px;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contactForm h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 30px;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.formGroup label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+.formGroup input,
+.formGroup textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #1a1a1a;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background: transparent;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    transition: border-bottom-color 0.3s ease;
+}
+
+.formGroup input::placeholder,
+.formGroup textarea::placeholder {
+    color: #888;
+    opacity: 0.7;
+}
+
+.formGroup textarea {
+    height: 100px;
+    resize: none;
+}
+
+.formGroup:focus-within label {
+    color: #391ddb;
+}
+
+.formGroup:focus-within input,
+.formGroup:focus-within textarea {
+    border-bottom: 1px solid #391ddb;
+}
+
+.contactForm button {
+    background-color: #391ddb;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 13px 280px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+    transform: translate(12px, 0px);
+}
+
+.contactForm button:hover {
+    background-color: #2e17b0;
+}
+
+.successMessage {
+    color: #28a745;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.errorMessage {
+    color: #dc3545;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 360px) {
+    .contactForm {
+        padding: 20px;
+    }
+
+    .contactForm h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .formGroup {
+        margin-bottom: 15px;
+    }
+
+    .formGroup label {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    .formGroup input,
+    .formGroup textarea {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .formGroup textarea {
+        height: 80px;
+    }
+
+    .contactForm button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .formGroup:focus-within label {
+        color: #391ddb;
+    }
+
+    .formGroup:focus-within input,
+    .formGroup:focus-within textarea {
+        border-bottom: 1px solid #391ddb;
+    }
+
+    .successMessage,
+    .errorMessage {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+}
