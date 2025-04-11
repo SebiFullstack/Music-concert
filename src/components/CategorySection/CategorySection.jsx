@@ -39,7 +39,7 @@ const CategorySection = () => {
   return (
     <section className={styles["category-section"]}>
       <h2 className={styles["category-title"]}>
-        <span className={styles["highlight"]}>Explore</span>
+        <span id="category" className={styles["highlight"]}>Explore</span>
         <span className={styles["text-title"]}> By Category</span> 
       </h2>
       <div className={styles["category-grid"]}>

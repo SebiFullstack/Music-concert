@@ -4,7 +4,7 @@ import styles from './PriceSection.module.css';
 
 export default function PriceSection() {
   return (
-    <section className={styles.wrapper}>
+    <section id="price-section" className={styles.wrapper}>
       <h2 className={styles.title}>Choose a Tier that’s right for you</h2>
       <div className={styles.grid}>
         <PriceCard
