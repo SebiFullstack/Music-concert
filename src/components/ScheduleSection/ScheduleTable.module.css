@@ -1,0 +1,146 @@
+.tableContainer {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    max-width: 810px;
+    margin: 0 auto;
+    background: #fff;
+    text-align: left;
+}
+
+.headerRow {
+    display: flex;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    align-items: flex-start;
+}
+
+.headerCell {
+    font-size: 15px;
+    font-weight: 660;
+    color: #1a1a1a;
+    text-align: left;
+    padding: 0 13px;
+    transform: translate(-0px, 20px);
+    font-size: large;
+}
+
+.headerCell:nth-child(1) {
+    flex: 0 0 120px;
+}
+
+.headerCell:nth-child(2) {
+    flex: 2;
+}
+
+.headerCell:nth-child(3) {
+    flex: 1;
+}
+
+.tableRow {
+    display: flex;
+    border-bottom: 1px solid #e0e0e0;
+    align-items: flex-start;
+    padding: 25px 0;
+}
+
+.tableRow:last-child {
+    border-bottom: none;
+}
+
+.timeCell {
+    flex: 0 0 130px;
+    font-size: 12px;
+    color: #1a1a1a;
+    padding: 0 10px;
+    align-self: flex-start;
+}
+
+.tableRow>div:nth-child(2) {
+    flex: 1;
+}
+
+.tableRow,
+.headerRow {
+    min-height: 50px;
+}
+
+.headerRow {
+    padding-top: 5px;
+    background-color: #391ddb10;
+    border-radius: 15px;
+}
+
+.timeCell {
+    padding-top: 4px;
+}
+
+.tableRow>div:last-child .eventRow {
+    border-bottom: none;
+}
+
+.speakersHeader {
+    transform: translate(-130px, 20px);
+    font-size: large;
+}
+
+@media (max-width: 360px) {
+    .tableContainer {
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 10px;
+    }
+
+    .headerRow {
+        flex-direction: column;
+        padding-bottom: 10px;
+        margin-bottom: 5px;
+        min-height: auto;
+        border-radius: 8px;
+    }
+
+    .headerCell {
+        font-size: 13px;
+        padding: 5px 10px;
+        transform: none;
+        flex: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .headerCell:nth-child(1),
+    .headerCell:nth-child(2),
+    .headerCell:nth-child(3) {
+        flex: none;
+    }
+
+    .tableRow {
+        flex-direction: column;
+        padding: 15px 0;
+        min-height: auto;
+    }
+
+    .timeCell {
+        flex: none;
+        width: 100%;
+        font-size: 11px;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    .tableRow>div:nth-child(2) {
+        flex: none;
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .speakersHeader {
+        transform: none;
+        font-size: 14px;
+        text-align: center;
+        padding: 5px 10px;
+    }
+}
