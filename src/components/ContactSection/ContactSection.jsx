@@ -6,8 +6,8 @@ import styles from './ContactSection.module.css';
 function ContactSection() {
   return (
     <section className={styles.contactSection}>
-      <ContactForm />
       <ContactInfo />
+      <ContactForm />
     </section>
   );
 }

@@ -1,0 +1,103 @@
+.contactInfo {
+    flex: 1;
+    background-color: #391ddb;
+    color: #fff;
+    padding: 40px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    gap: 15px;
+}
+
+.iconsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.iconInquiry,
+.iconPhone,
+.iconEmail,
+.iconLocation {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.iconInquiry {
+    background-image: url('/path-to-inquiry-icon.png');
+    transform: none;
+}
+
+.iconPhone {
+    background-image: url('/public/Icons/phone-contact.svg');
+    transform: none;
+    transform: translate(6px, 96px);
+}
+
+.iconEmail {
+    background-image: url('/public/Icons/contact-sms.svg');
+    transform: none;
+    transform: translate(6px, 150px);
+}
+
+.iconLocation {
+    background-image: url('/public/Icons/contact-location.svg');
+    transform: none;
+    transform: translate(6px, 200px);
+}
+
+.textContainer {
+    flex: 1;
+}
+
+.textContainer h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    text-align: left;
+}
+
+.textContainer p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 50px;
+    text-align: left;
+}
+
+.textContainer p strong {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.contactInfo::before,
+.contactInfo::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.3;
+}
+
+.contactInfo::before {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    bottom: -75px;
+    right: -75px;
+}
+
+.contactInfo::after {
+    width: 100px;
+    height: 100px;
+    background-color: #ff6f61;
+    bottom: -50px;
+    right: 0;
+}
