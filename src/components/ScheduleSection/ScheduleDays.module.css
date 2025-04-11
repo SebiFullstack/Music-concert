@@ -1,0 +1,114 @@
+.scheduleContainer {
+    margin-bottom: 10px;
+    transform: translate(150px, -5px);
+    font-family: 'Roboto', sans-serif;
+}
+
+.scheduleTitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 20px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.daysContainer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 180px;
+}
+
+.dayTab {
+    padding: 10px 20px 10px 0;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.dayTab::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    height: 1px;
+    background-color: #e0e0e0;
+    transition: width 0.3s ease, background-color 0.3s ease, height 0.3s ease;
+}
+
+.dayTab.active::after {
+    width: 250px;
+    height: 4px;
+    background-color: #381DDB;
+}
+
+.dayTab.active .dayTitle {
+    color: #381DDB;
+}
+
+.dayTab.active .dayDate {
+    color: #381DDB;
+}
+
+.dayTitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #888;
+    margin: 0;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dayDate {
+    font-size: 16px;
+    font-weight: 400;
+    color: #888;
+    margin: 5px 0 0;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 360px) {
+    .scheduleContainer {
+    transform: none;
+    margin-bottom: 8px;
+    padding: 0 10px;
+    }
+
+    .scheduleTitle {
+    font-size: 18px;
+    margin: 0 0 12px;
+    text-align: center;
+    }
+
+    .daysContainer {
+    flex-direction: column;
+    gap: 10px;
+    }
+
+    .dayTab {
+    padding: 6px 0;
+    }
+
+    .dayTab::after {
+    width: 100%;
+    left: 0;
+    }
+
+    .dayTab.active::after {
+    width: 100%;
+    height: 3px;
+    }
+
+    .dayTitle {
+    font-size: 16px;
+    text-align: center;
+    }
+
+    .dayDate {
+    font-size: 11px;
+    margin: 2px 0 0;
+    text-align: center;
+    }
+}

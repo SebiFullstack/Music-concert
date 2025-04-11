@@ -1,28 +1,22 @@
 import React from 'react';
-import './ScheduleDays.module.css';
+import styles from './ScheduleDays.module.css';
 
-const ScheduleDays = () => {
-  const days = [
-    { day: 'Monday', time: '10:00 AM - 5:00 PM' },
-    { day: 'Tuesday', time: '10:00 AM - 5:00 PM' },
-    { day: 'Wednesday', time: '10:00 AM - 5:00 PM' },
-    { day: 'Thursday', time: '10:00 AM - 5:00 PM' },
-    { day: 'Friday', time: '10:00 AM - 5:00 PM' },
-    { day: 'Saturday', time: 'Closed' },
-    { day: 'Sunday', time: 'Closed' }
-  ];
-
+const ScheduleDays = ({ days, activeDay, setActiveDay }) => {
   return (
-    <div className="scheduleDays">
-      <h2>Our Schedule</h2>
-      <ul className="scheduleList">
-        {days.map((schedule, index) => (
-          <li key={index} className="scheduleItem">
-            <span className="day">{schedule.day}</span>
-            <span className="time">{schedule.time}</span>
-          </li>
+    <div className={styles.scheduleContainer}>
+      <h2 className={styles.scheduleTitle}>Event Schedule</h2>
+      <div className={styles.daysContainer}>
+        {days.map((day, index) => (
+          <div
+            key={index} // Исправили: добавили закрывающую скобку
+            className={`${styles.dayTab} ${activeDay === index + 1 ? styles.active : ''}`}
+            onClick={() => setActiveDay(index + 1)}
+          >
+            <h3 className={styles.dayTitle}>{day.day}</h3>
+            <p className={styles.dayDate}>{day.date}</p>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

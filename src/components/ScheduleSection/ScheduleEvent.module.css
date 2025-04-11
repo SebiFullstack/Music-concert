@@ -1,0 +1,213 @@
+.eventRow {
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+}
+
+.eventCell {
+    flex: 1;
+    font-size: 12px;
+    color: #1a1a1a;
+    padding: 0 10px;
+    align-self: flex-start;
+}
+
+.eventCell:nth-child(1) {
+    flex: 2;
+}
+
+.contentLine {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #333;
+    font-weight: 600;
+}
+
+.speakersWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.speakers {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.speaker {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.speakerAvatar {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    transform: translate(-130px, 2px);
+}
+
+.speakerName {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    transform: translate(-130px, 2px);
+}
+
+.speakerBooth {
+    font-size: 12px;
+    color: #888;
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    transform: translate(-130px, 2px);
+}
+
+.statusWrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.statusPreview,
+.statusLive,
+.statusUpcoming {
+    display: inline-flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.statusPreview {
+    color: #000;
+    transform: translate(-25px, 10px);
+}
+
+.statusLive {
+    color: #ff0000;
+    transform: translate(-25px, 55px);
+}
+
+.statusUpcoming {
+    color: #000;
+    transform: translate(-25px, 27px);
+}
+
+.statusUpcoming {
+    pointer-events: none;
+}
+
+.statusPreview:hover,
+.statusLive:hover {
+    text-decoration: none;
+}
+
+.previewIcon,
+.liveIcon,
+.upcomingIcon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.previewIcon {
+    background-image: url('/Icons/Preview.svg');
+    filter: none;
+}
+
+.liveIcon {
+    background-image: url('/Icons/Live.svg');
+    filter: none;
+    transform: translate(-0px, 2px);
+}
+
+.upcomingIcon {
+    background-image: url('/Icons/Upcoming.svg');
+    filter: none;
+}
+
+.boothNumber {
+    color: #00000069;
+    font-weight: bold;
+}
+
+@media (max-width: 360px) {
+    .eventRow {
+    flex-direction: column;
+    align-items: stretch;
+    }
+
+    .eventCell {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 11px;
+    }
+
+    .eventCell:nth-child(1) {
+    flex: none;
+    }
+
+    .contentLine {
+    font-size: 11px;
+    }
+
+    .speakersWrapper {
+    flex-direction: column;
+    gap: 10px;
+    }
+
+    .speakers {
+    gap: 10px;
+    }
+
+    .speaker {
+    gap: 6px;
+    }
+
+    .speakerAvatar {
+    width: 24px;
+    height: 24px;
+    transform: none;
+    }
+
+    .speakerName {
+    font-size: 13px;
+    transform: none;
+    }
+
+    .speakerBooth {
+    font-size: 11px;
+    transform: none;
+    }
+
+    .statusWrapper {
+    flex-direction: column;
+    gap: 8px;
+    }
+
+    .statusPreview,
+    .statusLive,
+    .statusUpcoming {
+    font-size: 9px;
+    transform: none;
+    }
+
+    .previewIcon,
+    .liveIcon,
+    .upcomingIcon {
+    width: 10px;
+    height: 10px;
+    margin-left: 3px;
+    transform: none;
+    }
+}
