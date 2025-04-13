@@ -107,4 +107,62 @@
         top: 20px;
         left: 20px;
     }
+
+    .content {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 360px) {
+    .aboutSection {
+        padding: 2rem 1rem;
+        gap: 2rem;
+    }
+
+    .imageContainer {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        /* Сохраняем пропорции 1:1 */
+        max-width: 300px;
+        /* Ограничиваем максимальную ширину */
+    }
+
+    .mainImage,
+    .bgImage {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        object-fit: contain;
+        /* Изображения не обрезаются, а масштабируются с сохранением пропорций */
+    }
+
+    .bgImage {
+        top: 10px;
+        left: 10px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    .content h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .content p {
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .button {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    .arrow {
+        font-size: 1rem;
+    }
 }

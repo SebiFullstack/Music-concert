@@ -16,7 +16,7 @@
 .daysContainer {
     display: flex;
     justify-content: flex-start;
-    gap: 180px;
+    gap: 215px;
 }
 
 .dayTab {
@@ -31,14 +31,14 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 250px;
-    height: 1px;
+    width: 280px;
+    height: 3px;
     background-color: #e0e0e0;
     transition: width 0.3s ease, background-color 0.3s ease, height 0.3s ease;
 }
 
 .dayTab.active::after {
-    width: 250px;
+    width: 290px;
     height: 4px;
     background-color: #381DDB;
 }
