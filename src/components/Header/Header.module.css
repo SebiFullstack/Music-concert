@@ -1,0 +1,314 @@
+.header {
+    background: url("/public/img/main.webp") no-repeat center center/cover;
+    color: white;
+    position: relative;
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    min-height: 100vh; 
+    width: 100vw;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    margin-left: -80px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 200px;
+    padding-right: 100px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    padding-right: 0px;
+  }
+  
+  .menu li {
+    cursor: pointer;
+  }
+  
+  .ticketBtn {
+    background: white;
+    color: #3b1fff;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 222px;
+  }
+  
+  .ticketBtn:hover{
+    color: white;
+    background: #ff6f61;
+  }
+  
+  .hero h1 {
+    font-size: 3.7rem;
+    font-weight: bold;
+    margin: 0 0 1rem 0;
+    padding-top: 40px;
+  }
+  
+  .highlight {
+    color: #ff9671;
+  }
+  
+  .hero p {
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .getStarted {
+    background-color: #ff6f61;
+    border: none;
+    padding: 0.7rem 1.4rem;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .getStarted:hover {
+    color: #ff6f61;
+    background: white;
+  }
+  
+  .watchVideo {
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1.4rem; 
+    border-radius: 8px;
+    margin: 0;
+  }
+
+  .watchVideo:hover {
+    color: rgba(255, 255, 255, 0.682);
+  }
+  
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 6.5rem;
+    font-weight: bold;
+    color: transparent; 
+    -webkit-text-stroke: 0.5px white; 
+    margin-top: 5rem;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown span {
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .dropdownMenu {
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 8px;
+    padding: 0.5rem 0;
+    min-width: 80px;
+    z-index: 10;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  
+  .dropdownMenu li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .dropdownMenu li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .dropdown:hover .dropdownMenu {
+    display: block;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .menu a {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  .menu a:hover {
+    color: rgba(255, 255, 255, 0.723); 
+  }
+
+  @media (max-width: 360px) {
+    .header {
+      background: url("/public/img/main.webp") no-repeat center center/cover;
+      color: white;
+      padding: 1.5rem 1rem;
+      text-align: center;
+      min-height: 100vh; 
+      box-sizing: border-box;
+      margin: 0;
+      margin-bottom: 50px;
+      width: 378vw;
+    }
+  
+    .nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .logo {
+      font-size: 4rem;
+      font-weight: bold;
+      text-align: left;
+      padding: 0;
+      margin-left: -950px;
+    }
+  
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      padding: 0;
+      margin: 0;
+      align-items: left;
+      margin-left: -950px;
+    }
+  
+    .menu li {
+      font-size: 2.2rem;
+    }
+  
+    .ticketBtn {
+      background: white;
+      color: #3b1fff;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 1rem;
+      font-size: 1.7rem;
+      margin-left: -730px;
+    }
+  
+    .ticketBtn:hover {
+      background: #ff6f61;
+      color: white;
+    }
+  
+    .hero h1 {
+      font-size: 4rem;
+      padding-top: 1rem;
+      margin-right: -300px;
+      margin-top: -450px;
+    }
+  
+    .hero p {
+      font-size: 0.95rem;
+      padding: 0 1rem;
+      line-height: 1.5;
+      margin-right: 150px;
+    }
+  
+    .buttons {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.8rem;
+      margin-top: 1.5rem;
+    }
+  
+    .watchVideo {
+      justify-content: center;
+      padding: 0.6rem 1rem;
+      font-size: 2rem;
+      margin-left: 100px;
+    }
+
+    .getStarted {
+      justify-content: center;
+      padding: 0.6rem 1rem;
+      font-size: 2rem;
+      margin-left: 200px;
+    }
+  
+    .countdown {
+      display: flex;
+      justify-content: center;
+      gap: 5rem;
+      font-size: 6.5rem;
+      font-weight: bold;
+      color: transparent; 
+      -webkit-text-stroke: 0.5px white; 
+      margin-top: 5rem;
+    }
+  
+    .dropdownMenu {
+      right: -200px;
+      left: auto;
+      min-width: 120px;
+      font-size: 0.85rem;
+    }
+  
+    .icon {
+      width: 30px;
+      height: 30px;
+      margin: 0;
+    }
+  }
+  

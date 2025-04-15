@@ -1,15 +1,17 @@
-import React from 'react';
-import './PriceCard.module.css';
+import styles from './PriceCard.module.css';
 
-const PriceCard = ({ title, price, description }) => {
+export default function PriceCard({ tier, price, seats, features, type }) {
   return (
-    <div className="priceCard">
-      <h3 className="priceTitle">{title}</h3>
-      <p className="priceAmount">{price}</p>
-      <p className="priceDescription">{description}</p>
-      <button className="priceButton">Add to Cart</button>
+    <div className={`${styles.card} ${styles[type]}`}>
+      <h3 className={styles.tier}>{tier}</h3>
+      <p className={styles.price}>${price}</p>
+      <ul className={styles.features}>
+        <li>{seats}</li>
+        {features.map((feat, index) => (
+          <li key={index}>{feat}</li>
+        ))}
+      </ul>
+      <button className={styles.button}>Get Tickets</button>
     </div>
   );
-};
-
-export default PriceCard;
+}

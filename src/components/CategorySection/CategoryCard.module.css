@@ -1,0 +1,77 @@
+.card {
+    background-color: #1c1c1e;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: left;
+    color: #000000;
+    transition: transform 0.3s ease;
+    min-height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 210px;
+    flex-shrink: 0;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon {
+    font-size: 25px;
+    margin-bottom: -2px;
+    margin-left: 35px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    margin-left: 35px;
+
+  }
+  
+  .description {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #747272;
+    margin-left: 35px;
+    margin-bottom: -20px;
+  }
+  
+
+  .bg-dj-mixer {
+    background-color: #ffbe9d3d;
+  }
+  .bg-bagpipes {
+    background-color: #ffcdcd40;
+  }
+  .bg-saxophone {
+    background-color: #381DDB;
+    color: rgb(255, 255, 255);
+  }
+  .bg-rock {
+    background-color: #c0009625;
+  }
+  .bg-jazz {
+    background-color: #84c4ff2d;
+  }
+  
+  @media (max-width: 360px) {
+   
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: -10px;
+      margin-left: 35px;
+  
+    }
+    
+    .description {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #747272;
+      margin-left: 35px;
+      margin-bottom: -20px;
+    }
+  }

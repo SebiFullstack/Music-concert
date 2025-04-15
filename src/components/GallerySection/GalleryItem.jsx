@@ -1,12 +1,20 @@
 import React from 'react';
-import './GalleryItem.module.css';
+import styles from './GalleryItem.module.css';
+import { FaHeart, FaRegComment } from 'react-icons/fa';
+import clsx from 'clsx';
 
-const GalleryItem = ({ image, title, description }) => {
+const GalleryItem = ({ image, title, hashtags, faded }) => {
   return (
-    <div className="galleryItem">
-      <img src={image} alt={title} className="galleryImage" />
-      <h3 className="galleryTitle">{title}</h3>
-      <p className="galleryDescription">{description}</p>
+    <div className={clsx(styles.card, faded && styles.faded)}>
+      <div className={styles.imageWrapper}>
+        <img src={image} alt={title} />
+      </div>
+      <div className={styles.stats}>
+        <div><FaHeart /> 412</div>
+        <div><FaRegComment /> 140</div>
+      </div>
+      <h4 className={styles.title}>{title}</h4>
+      <p className={styles.hashtags}>{hashtags}</p>
     </div>
   );
 };
