@@ -28,7 +28,7 @@ const ScheduleTable = ({ activeDay }) => {
         'leo, nec cursus ex.',
 speaker: [
           { name: 'Bob John', booth: 'Booth: 3G12', avatar: '/img/Avatar-2.svg' }, 
-          { name: 'Yui Ronald', booth: 'Booth: 2F12', avatar: '/public/img/Avatar-3.svg' }, 
+          { name: 'Yui Ronald', booth: 'Booth: 2F12', avatar: '/img/Avatar-3.svg' }, 
           { name: 'Emma Satoshi', booth: 'Booth: 2A35', avatar: '/img/Avatar-4.svg' },
         ],
         status: 'live',
