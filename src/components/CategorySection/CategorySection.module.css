@@ -39,3 +39,37 @@
   opacity: 50%;
 }
   
+@media (max-width: 360px) {
+  .category-section {
+    width: 378vw;
+    align-items: center;
+  }
+
+  .category-title {
+    font-size: 40px;
+    text-align: center;
+    margin-left: -300px;
+  }
+
+  .category-grid {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 16px;
+    padding-bottom: 10px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .category-grid > * {
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+  }
+
+  .whiteIcon {
+    filter: invert(1) brightness(1000%);
+  }
+
+  .folkIcon,
+  .popIcon {
+    opacity: 50%;
+  }
+}

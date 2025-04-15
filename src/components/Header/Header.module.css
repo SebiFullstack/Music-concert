@@ -9,6 +9,7 @@
     width: 100vw;
     box-sizing: border-box;
     margin-bottom: 100px;
+    margin-left: -80px;
   }
   
   .nav {
@@ -190,3 +191,124 @@
   .menu a:hover {
     color: rgba(255, 255, 255, 0.723); 
   }
+
+  @media (max-width: 360px) {
+    .header {
+      background: url("/public/img/main.webp") no-repeat center center/cover;
+      color: white;
+      padding: 1.5rem 1rem;
+      text-align: center;
+      min-height: 100vh; 
+      box-sizing: border-box;
+      margin: 0;
+      margin-bottom: 50px;
+      width: 378vw;
+    }
+  
+    .nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .logo {
+      font-size: 4rem;
+      font-weight: bold;
+      text-align: left;
+      padding: 0;
+      margin-left: -950px;
+    }
+  
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      padding: 0;
+      margin: 0;
+      align-items: left;
+      margin-left: -950px;
+    }
+  
+    .menu li {
+      font-size: 2.2rem;
+    }
+  
+    .ticketBtn {
+      background: white;
+      color: #3b1fff;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 1rem;
+      font-size: 1.7rem;
+      margin-left: -730px;
+    }
+  
+    .ticketBtn:hover {
+      background: #ff6f61;
+      color: white;
+    }
+  
+    .hero h1 {
+      font-size: 4rem;
+      padding-top: 1rem;
+      margin-right: -300px;
+      margin-top: -450px;
+    }
+  
+    .hero p {
+      font-size: 0.95rem;
+      padding: 0 1rem;
+      line-height: 1.5;
+      margin-right: 150px;
+    }
+  
+    .buttons {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.8rem;
+      margin-top: 1.5rem;
+    }
+  
+    .watchVideo {
+      justify-content: center;
+      padding: 0.6rem 1rem;
+      font-size: 2rem;
+      margin-left: 100px;
+    }
+
+    .getStarted {
+      justify-content: center;
+      padding: 0.6rem 1rem;
+      font-size: 2rem;
+      margin-left: 200px;
+    }
+  
+    .countdown {
+      display: flex;
+      justify-content: center;
+      gap: 5rem;
+      font-size: 6.5rem;
+      font-weight: bold;
+      color: transparent; 
+      -webkit-text-stroke: 0.5px white; 
+      margin-top: 5rem;
+    }
+  
+    .dropdownMenu {
+      right: -200px;
+      left: auto;
+      min-width: 120px;
+      font-size: 0.85rem;
+    }
+  
+    .icon {
+      width: 30px;
+      height: 30px;
+      margin: 0;
+    }
+  }
+  

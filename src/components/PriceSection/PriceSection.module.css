@@ -12,16 +12,34 @@
   }
   
   .grid {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr;
     gap: 16px; 
     max-width: 900px;
     margin: 0 auto;
   }
   
-  @media (min-width: 768px) {
+  @media (max-width: 360px) {
+    .wrapper {
+      width: 378vw;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    
+    .title {
+      font-size: 40px;
+      font-weight: 600;
+      margin-bottom: 40px;
+      transform: translate(460px, -149px);
+      color: black;
+    }
+    
     .grid {
-      grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+      display: flex;
+      grid-template-columns: 1fr;
+      gap: 50px; 
+      margin: 0 auto;
+      transform: translate(-220px, 19px);
     }
   }
   

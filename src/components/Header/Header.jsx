@@ -76,7 +76,7 @@ export default function Header() {
           <a href="#category"><button className={styles.getStarted}>Get Started</button></a>
           <button className={styles.watchVideo}>
           <a 
-            href="https://www.youtube.com/watch?v=6i1LrJhJNlQ" 
+            href="https://www.youtube.com/watch?v=aZWWlqDy8nE" 
             target="_blank" 
             rel="noopener noreferrer" 
             className={styles.watchVideo}
