@@ -28,7 +28,7 @@ const ScheduleTable = ({ activeDay }) => {
         'leo, nec cursus ex.',
 speaker: [
           { name: 'Bob John', booth: 'Booth: 3G12', avatar: '/img/Avatar-2.svg' }, 
-          { name: 'Yui Ronald', booth: 'Booth: 2F12', avatar: '/img/Avatar.svg' }, 
+          { name: 'Yui Ronald', booth: 'Booth: 2F12', avatar: '/public/img/Avatar-3.svg' }, 
           { name: 'Emma Satoshi', booth: 'Booth: 2A35', avatar: '/img/Avatar-4.svg' },
         ],
         status: 'live',
@@ -63,7 +63,7 @@ speaker: [
         'rutrum vel vulputate vitae, fringilla id magna.',
         speaker: [
           { name: 'Bob John', booth: 'Booth: 3G12', avatar: '/img/Avatar-2.svg' },
-          { name: 'Emma Satoshi', booth: 'Booth: 2A35', avatar: '/img/Avatar-3.svg' },
+          { name: 'Emma Satoshi', booth: 'Booth: 2A35', avatar: '/img/Avatar-4.svg' },
         ],
         status: 'live',
       },
@@ -97,7 +97,7 @@ speaker: [
             'rutrum vel vulputate vitae, fringilla id magna.',
         speaker: [
           { name: 'Bob John', booth: 'Booth: 3G12', avatar: '/img/Avatar-2.svg' },
-          { name: 'Yui Ronald', booth: 'Booth: 2F12', avatar: '/img/Avatar.svg' },
+          { name: 'Yui Ronald', booth: 'Booth: 2F12', avatar: '/img/Avatar-3.svg' },
         ],
         status: 'live',
       },
@@ -106,7 +106,7 @@ speaker: [
         content: 'Vestibulum vel eros vel metus lacinia feugiat a\n' +
         'nec metus.',
         speaker: [
-          { name: 'Emma Satoshi', booth: 'Booth: 2A35', avatar: '/img/Avatar-3.svg' },
+          { name: 'Emma Satoshi', booth: 'Booth: 2A35', avatar: '/img/Avatar-4.svg' },
           { name: 'Diana Brock', booth: 'Booth: 2F24', avatar: '/img/Avatar-6.svg' },
         ],
         status: 'upcoming',
