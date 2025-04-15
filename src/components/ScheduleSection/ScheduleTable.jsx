@@ -12,7 +12,7 @@ const ScheduleTable = ({ activeDay }) => {
         speaker: {
           name: 'Yui Ronald',
           booth: 'Booth: 2F12',
-          avatar: '/img/Avatar.svg', 
+          avatar: '/public/img/Avatar.svg', 
         },
         status: 'preview',
       },
@@ -27,9 +27,9 @@ const ScheduleTable = ({ activeDay }) => {
         'rutrum non lacus ac rhoncus. Morbi quis luctus\n' +
         'leo, nec cursus ex.',
 speaker: [
-          { name: 'Bob John', booth: 'Booth: 3G12', avatar: '/img/Avatar-2.svg' }, 
-          { name: 'Yui Ronald', booth: 'Booth: 2F12', avatar: '/img/Avatar.svg' }, 
-          { name: 'Emma Satoshi', booth: 'Booth: 2A35', avatar: '/img/Avatar-4.svg' },
+          { name: 'Bob John', booth: 'Booth: 3G12', avatar: '/public/img/Avatar-2.svg' }, 
+          { name: 'Yui Ronald', booth: 'Booth: 2F12', avatar: '/public/img/Avatar.svg' }, 
+          { name: 'Emma Satoshi', booth: 'Booth: 2A35', avatar: '/public/img/Avatar-4.svg' },
         ],
         status: 'live',
       },
@@ -38,8 +38,8 @@ speaker: [
         content: 'Vestibulum vel eros vel metus lacinia feugiat a\n' +
         'nec metus.',
         speaker: [
-          { name: 'Sasha Jackson', booth: 'Booth: 2F18', avatar: '/img/Avatar-5.svg' }, 
-          { name: 'Diana Brock', booth: 'Booth: 2F24', avatar: '/img/Avatar-6.svg' }, 
+          { name: 'Sasha Jackson', booth: 'Booth: 2F18', avatar: '/public/img/Avatar-5.svg' }, 
+          { name: 'Diana Brock', booth: 'Booth: 2F24', avatar: '/public/img/Avatar-6.svg' }, 
         ],
         status: 'upcoming',
       },
@@ -52,7 +52,7 @@ speaker: [
         speaker: {
         name: 'Yui Ronald',
         booth: 'Booth: 2F12',
-        avatar: '/img/Avatar.svg',
+        avatar: '/public/img/Avatar.svg',
         },
         status: 'preview',
       },
@@ -62,8 +62,8 @@ speaker: [
         'Duis nec sodales nibh. Proin lectus tortor,\n' +
         'rutrum vel vulputate vitae, fringilla id magna.',
         speaker: [
-          { name: 'Bob John', booth: 'Booth: 3G12', avatar: '/img/Avatar-2.svg' },
-          { name: 'Emma Satoshi', booth: 'Booth: 2A35', avatar: '/img/Avatar-3.svg' },
+          { name: 'Bob John', booth: 'Booth: 3G12', avatar: '/public/img/Avatar-2.svg' },
+          { name: 'Emma Satoshi', booth: 'Booth: 2A35', avatar: '/public/img/Avatar-3.svg' },
         ],
         status: 'live',
       },
@@ -72,8 +72,8 @@ speaker: [
         content: 'Vestibulum vel eros vel metus lacinia feugiat a\n' +
         'nec metus.',
         speaker: [
-          { name: 'Sasha Jackson', booth: 'Booth: 2F18', avatar: '/img/Avatar-5.svg' },
-          { name: 'Diana Brock', booth: 'Booth: 2F24', avatar: '/img/Avatar-6.svg' },
+          { name: 'Sasha Jackson', booth: 'Booth: 2F18', avatar: '/public/img/Avatar-5.svg' },
+          { name: 'Diana Brock', booth: 'Booth: 2F24', avatar: '/public/img/Avatar-6.svg' },
         ],
         status: 'upcoming',
       },
@@ -86,7 +86,7 @@ speaker: [
         speaker: {
           name: 'Sasha Jackson',
           booth: 'Booth: 2F18',
-          avatar: '/img/Avatar-5.svg',
+          avatar: '/public/img/Avatar-5.svg',
         },
         status: 'preview',
       },
@@ -96,8 +96,8 @@ speaker: [
             'Duis nec sodales nibh. Proin lectus tortor,\n' +
             'rutrum vel vulputate vitae, fringilla id magna.',
         speaker: [
-          { name: 'Bob John', booth: 'Booth: 3G12', avatar: '/img/Avatar-2.svg' },
-          { name: 'Yui Ronald', booth: 'Booth: 2F12', avatar: '/img/Avatar.svg' },
+          { name: 'Bob John', booth: 'Booth: 3G12', avatar: '/public/img/Avatar-2.svg' },
+          { name: 'Yui Ronald', booth: 'Booth: 2F12', avatar: '/public/img/Avatar.svg' },
         ],
         status: 'live',
       },
@@ -106,8 +106,8 @@ speaker: [
         content: 'Vestibulum vel eros vel metus lacinia feugiat a\n' +
         'nec metus.',
         speaker: [
-          { name: 'Emma Satoshi', booth: 'Booth: 2A35', avatar: '/img/Avatar-3.svg' },
-          { name: 'Diana Brock', booth: 'Booth: 2F24', avatar: '/img/Avatar-6.svg' },
+          { name: 'Emma Satoshi', booth: 'Booth: 2A35', avatar: '/public/img/Avatar-3.svg' },
+          { name: 'Diana Brock', booth: 'Booth: 2F24', avatar: '/public/img/Avatar-6.svg' },
         ],
         status: 'upcoming',
       },
