@@ -135,7 +135,6 @@
         height: 100%;
         border-radius: 15px;
         object-fit: contain;
-        /* Изображения не обрезаются, а масштабируются с сохранением пропорций */
     }
 
     .bgImage {

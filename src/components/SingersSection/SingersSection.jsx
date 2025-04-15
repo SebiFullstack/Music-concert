@@ -19,10 +19,10 @@ function SingersSection() {
       </div>
       <div className={styles.right}>
        <div className={styles.imageGrid}>
-       <img src="/public/img/singers1.webp" alt="Singer 1" className={styles.img1} />
-       <img src="/public/img/singers2.webp" alt="Singer 2" className={styles.img2} />
-       <img src="/public/img/singers3.webp" alt="Singer 3" className={styles.img3} />
-       <img src="/public/img/singers4.webp" alt="Singer 4" className={styles.img4} />
+       <img src="/img/singers1.webp" alt="Singer 1" className={styles.img1} />
+       <img src="/img/singers2.webp" alt="Singer 2" className={styles.img2} />
+       <img src="/img/singers3.webp" alt="Singer 3" className={styles.img3} />
+       <img src="/img/singers4.webp" alt="Singer 4" className={styles.img4} />
 </div>
 
       </div>

@@ -8,7 +8,7 @@ const ScheduleDays = ({ days, activeDay, setActiveDay }) => {
       <div className={styles.daysContainer}>
         {days.map((day, index) => (
           <div
-            key={index} // Исправили: добавили закрывающую скобку
+            key={index} 
             className={`${styles.dayTab} ${activeDay === index + 1 ? styles.active : ''}`}
             onClick={() => setActiveDay(index + 1)}
           >
