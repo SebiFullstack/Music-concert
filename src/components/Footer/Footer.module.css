@@ -65,7 +65,10 @@
 
   @media(max-width: 360px) {
     .footer {
-      width: 378vw;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+    width: 113%;
     }
     .socials{
       font-size: 45px;

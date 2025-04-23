@@ -202,7 +202,11 @@
       box-sizing: border-box;
       margin: 0;
       margin-bottom: 50px;
-      width: 378vw;
+      margin-left: -80px;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      overflow-x: hidden;
+      width: 113%;
     }
   
     .nav {
