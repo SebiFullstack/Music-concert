@@ -49,6 +49,7 @@
 @media (max-width: 360px) {
     .sponsorsSection {
     padding: 20px 10px;
+    transform: translateX(450px);
     }
 
     .title {
@@ -64,7 +65,7 @@
     }
 
     .sponsorLogo {
-    max-width: 120px;
+    max-width: 150px;
     height: 40px;
     }
 

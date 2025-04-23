@@ -86,47 +86,21 @@
     font-size: 1.2rem;
 }
 
-@media (max-width: 768px) {
-    .aboutSection {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .imageContainer {
-        width: 80%;
-        height: auto;
-    }
-
-    .mainImage,
-    .bgImage {
-        width: 100%;
-        height: auto;
-    }
-
-    .bgImage {
-        top: 20px;
-        left: 20px;
-    }
-
-    .content {
-        align-items: center;
-        text-align: center;
-    }
-}
-
 @media (max-width: 360px) {
     .aboutSection {
         padding: 2rem 1rem;
         gap: 2rem;
+        align-items: center;
+        text-align: center;
+        transform: translateX(450px);
     }
 
     .imageContainer {
         width: 100%;
         height: auto;
         aspect-ratio: 1 / 1;
-        /* Сохраняем пропорции 1:1 */
-        max-width: 300px;
-        /* Ограничиваем максимальную ширину */
+        max-width: 400px;
+        margin: 0 auto;
     }
 
     .mainImage,
@@ -143,7 +117,14 @@
     }
 
     .content {
+        width: 100%;
+        max-width: 320px;
         padding: 10px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .content h2 {

@@ -94,7 +94,8 @@
 
 @media (max-width: 360px) {
     .contactForm {
-        padding: 20px;
+        padding: 25px;
+        width: 100%;
     }
 
     .contactForm h2 {

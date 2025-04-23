@@ -79,9 +79,10 @@
 
 @media (max-width: 360px) {
     .testimonialCard {
-        width: 300px;
+        width: 160px;
         padding: 15px;
-        margin: 0 10px;
+        margin: 0 5px;
+        flex-shrink: 0;
     }
 
     .textBlock {
@@ -109,7 +110,7 @@
     }
 
     .author {
-        transform: translate(110px, -45px);
+        transform: translate(80px, -30px);
         margin-top: 10px;
     }
 
@@ -120,7 +121,7 @@
     }
 
     .authorInfo {
-        transform: translate(-90px, 50px);
+        transform: translate(-80px, 50px);
     }
 
     .authorName {

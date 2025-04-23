@@ -36,7 +36,8 @@
 
 @media (max-width: 360px) {
     .testimonialsSection {
-        padding: 20px 10px;
+        padding: 40px 10px;
+        transform: translateX(450px);
     }
 
     .testimonialsSection h2 {
@@ -46,9 +47,11 @@
 
     .carouselContainer {
         max-width: 100%;
+        overflow: hidden;
     }
 
     .carouselTrack {
         animation: slideRight 35s linear infinite;
+        gap: 10px;
     }
 }
