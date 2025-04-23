@@ -10,7 +10,6 @@
   margin-bottom: 100px;
   margin-left: -80px;
   word-wrap: break-word;
-  overflow-wrap: break-word;
   overflow-x: hidden;
   width: 113%;
 }
@@ -205,11 +204,9 @@ html {
     box-sizing: border-box;
     margin: 0;
     margin-bottom: 50px;
-    margin-left: -80px;
+    width: 400vw;
     word-wrap: break-word;
-  overflow-wrap: break-word;
   overflow-x: hidden;
-  width: 113%;
   }
 
   .nav {

@@ -5,12 +5,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10px;
+  padding: 10px 520px;
   margin: 0 auto;
-  margin-left: -80px;
+  width: 400vw;
   word-wrap: break-word;
   overflow-x: hidden;
-  width: 113%;
+  overflow-wrap: break-word;
 }
 
 .left {
@@ -24,7 +24,7 @@
   font-weight: 900;
   font-style: italic;
   margin-top: 10px;
-  margin-left: 150px;
+  margin-left: -400px;
   margin-bottom: 40px;
 }
 
@@ -33,7 +33,7 @@
   gap: 20px;
   font-size: 12px;
   text-transform: uppercase;
-  margin-left: 150px;
+  margin-left: -400px;
   margin-top: 10px;
   margin-bottom: 15px;
 }
@@ -51,7 +51,7 @@
   display: flex;
   gap: 20px;
   font-size: 20px;
-  margin-right: 300px;
+  margin-left: 400px;
   margin-top: 100px;
 }
 
