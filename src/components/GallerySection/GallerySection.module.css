@@ -1,6 +1,5 @@
 .section {
     position: relative;
-    width: 100vw; 
     padding: 60px 0; 
     box-sizing: border-box;
     background-color: rgba(252, 82, 82, 0.06);
@@ -11,6 +10,9 @@
     flex-direction: column;
     margin-left: -80px;
     text-align: left;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+    width: 113%;
   }
   
   .heading {

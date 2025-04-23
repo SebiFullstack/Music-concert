@@ -5,10 +5,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 60px;
+    padding: 10px 10px;
     margin: 0 auto;
-    width: 93vw;
-    margin-left: -100px;
+    width: 113%;
+    margin-left: -80px;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
   }
   
   .left {
