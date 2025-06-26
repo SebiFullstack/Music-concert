@@ -10,7 +10,7 @@ export default function Header() {
   });
 
 
-  const targetDate = new Date('2025-05-01T00:00:00');
+  const targetDate = new Date('2026-01-01T00:00:00');
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -76,7 +76,7 @@ export default function Header() {
           <a href="#category"><button className={styles.getStarted}>Get Started</button></a>
           <button className={styles.watchVideo}>
           <a 
-            href="https://www.youtube.com/watch?v=aZWWlqDy8nE" 
+            href="https://www.youtube.com/live/IkmLXvBfVv0?si=k3GNbXN_IW80ma67" 
             target="_blank" 
             rel="noopener noreferrer" 
             className={styles.watchVideo}
