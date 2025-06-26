@@ -81,7 +81,7 @@ export default function Header() {
             rel="noopener noreferrer" 
             className={styles.watchVideo}
           >
-            <img src="public/icons/watch-video.svg" alt="Watch" className={styles.icon} />
+            <img src="Icons/watch-video.svg" alt="Watch" className={styles.icon} />
             Watch Video
             </a>
           </button>
