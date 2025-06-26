@@ -6,13 +6,13 @@ const TestimonialsCard = ({ name, website, image, text }) => {
     <div className={styles.testimonialCard}>
       <div className={styles.textBlock}>
         <img
-          src="Icons/testimonials-top.svg"
+          src="/public/Icons/testimonials-top.svg"
           alt="Quote top"
           className={styles.quoteIconTop}
         />
         <p className={styles.text}>{text.replace('\n', ' ')}</p>
         <img
-          src="Icons/testimonials-bottom.svg"
+          src="/public/Icons/testimonials-bottom.svg"
           alt="Quote bottom"
           className={styles.quoteIconBottom}
         />
